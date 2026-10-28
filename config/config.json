@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "news-banner-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/newsBanner/NewsBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/newsBanner/NewsBannerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NewsBannerApplicationCustomizerStrings": "lib/extensions/newsBanner/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="NewsBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="77f9ec14-8b7a-48c9-9926-0f2e9818cd26"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;,&quot;Top&quot;:&quot;Top area of the page&quot;,&quot;Bottom&quot;:&quot;Bottom area in the page&quot;}">
+    </CustomAction>
+</Elements>

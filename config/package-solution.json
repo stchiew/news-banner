@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "news-banner-solution",
+    "id": "7bdfe910-6f07-4713-8d7e-72842a867e16",
+    "version": "0.0.1.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.23.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "news-banner description"
+      },
+      "longDescription": {
+        "default": "news-banner description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - News Banner Marquee",
+        "description": "A new banner marquee that displays news and announcements in a scrolling format.",
+        "id": "65492a08-bfc1-4047-96bf-5b29727beefb",
+        "version": "0.0.1.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/news-banner.sppkg"
+  }
+}

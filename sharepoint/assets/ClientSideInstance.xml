@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="NewsBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="77f9ec14-8b7a-48c9-9926-0f2e9818cd26"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

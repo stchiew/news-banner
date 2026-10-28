@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://{tenantDomain}/sites/spfx/SitePages/Home.aspx",
+      "customActions": {
+        "77f9ec14-8b7a-48c9-9926-0f2e9818cd26": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "News Banner Default message",
+            "Top": "Top area of the page - ",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    },
+    "newsBanner": {
+      "pageUrl": "https://{tenantDomain}/sites/spfx/SitePages/Home.aspx",
+      "customActions": {
+        "77f9ec14-8b7a-48c9-9926-0f2e9818cd26": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "News Banner message",
+            "Top": "Top area of the page - ",
+            "Bottom": "Bottom area of the page"
+          }
+        }
+      }
+    }
+  }
+}
